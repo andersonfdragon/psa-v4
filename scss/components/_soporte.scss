@@ -1,0 +1,197 @@
+/* SOPORTE */
+.section-soporte-candidato{
+  padding: 11rem 0rem 10rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 5rem 0rem;
+  }
+}
+.content-section-soporte-candidato-xs-01{
+  background: url('../images/background-xs-soporte-candidatos-psicoalianza.webp');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 390px;
+  h5:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    text-align: center;
+    margin:7rem 0rem 2rem 0rem;
+  }
+  h1:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05 + .2;
+    text-align: center;
+    margin:0rem 0rem 4rem 0rem;
+  }
+}
+
+.tx-section-soporte-candidato-01{
+  color: $color01;
+  font-family: $Lato-Bold;
+  font-size: $tx-size-06;
+  margin:0rem 0rem 3rem 0rem;
+}
+
+.tx-section-soporte-candidato-02{
+  color: $color01;
+  font-family: $Lato-Black;
+  font-size: $tx-size-01;
+  margin:0rem 0rem 5rem 0rem;
+}
+
+.content-section-soporte-candidato-01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#collapseFaqs{
+  margin-top: 20px;
+}
+
+.psa.card{
+  border: none;
+  background: none;
+}
+
+.psa.card-header{
+  padding: 12.5px 0px 12.5px 0px;
+  margin:2.5rem 0rem 0rem 0rem;
+  background: none;
+  border: none;
+  @media screen and (max-width: $window-size-04) {
+    margin:1.5rem 0rem 0rem 0rem;
+  }
+}
+
+.psa.collapse{
+  border: none;
+}
+
+.psa.card-body{
+  padding: 10px 15px;
+  color: $gris03;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-06;
+  text-align: justify;
+  span{
+    font-family: $Lato-Bold;
+  }
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-06;
+    padding: 10px 10px;
+    text-align: justify;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 10px 0px;
+  }
+  .enlace-soporte-01{
+    display: inline-block;
+    color: $color01;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    margin:0rem 4rem 0rem 0rem;
+    span{
+      margin:0rem 0rem 0rem 1rem;
+      .global-faqs.icon-arrow-right{
+        color: $color01;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+    }
+    &:focus{
+      color: $color01;
+    }
+    &:hover{
+      color: $color01;
+    }
+    @media screen and (max-width: $window-size-03) {
+      margin:0rem 2rem 0rem 0rem;
+      font-size: $tx-size-06;
+    }
+  }
+  .enlace-soporte-02{
+    display: inline-block;
+    color: $color01;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    span{
+      margin:0rem 0rem 0rem 1rem;
+      .global-faqs.icon-arrow-right{
+        color: $color01;
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+    }
+    &:focus{
+      color: $color01;
+    }
+    &:hover{
+      color: $color01;
+    }
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-06;
+    }
+  }
+}
+
+.btn-card-faqs-psa{
+  position: relative;
+  display: block;
+  color: $negro;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05 + .2;
+  padding: 10px 40px 10px 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  border-bottom: 1px solid $gris03;
+  cursor: pointer;
+  .tx{
+    position: static;
+    font-family: $Lato-Bold;
+  }
+  span{
+    .global-faqs.icon-arrow-down,
+    .global-faqs.icon-arrow-up{
+      color: $color01;
+      font-size: 2.5rem;
+      font-weight: bold;
+      @media screen and (max-width: $window-size-02) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-size: 1.4rem;
+      }
+    }
+    position: absolute;
+    right: 0px;
+    top:15px;
+    @media screen and (max-width: $window-size-02) {
+      top:22px;
+    }
+    @media screen and (max-width: $window-size-03) {
+      top:15px;
+    }
+    @media screen and (max-width: $window-size-04) {
+      top:19px;
+    }
+  }
+  &:focus{
+    color: $negro;
+  }
+  &:hover{
+    color: $negro;
+  }
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-05 - .2;
+  }
+}
+.margen-collapse-ajust{
+  padding: 0px 0px;
+}

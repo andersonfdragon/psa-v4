@@ -1,0 +1,39 @@
+/*SECTION 02 XS*/
+.section-xs-02{
+  background-color: $color01;
+  padding: 50px 0px 60px 0px;
+}
+.tx-section-xs-02_01{
+  margin:0px 0px 30px 0px;
+  text-align: center;
+  font-family: $Lato-Black;
+  color: $blanco;
+  font-size: $tx-size-05;
+}
+.tx-section-xs-02_01b{
+  margin:0px 0px 30px 0px;
+  text-align: center;
+  font-family: $Lato-Black;
+  color: $blanco;
+  font-size: $tx-size-05 - .2;
+}
+.tx-section-xs-02_02{
+  margin:0px 0px 40px 0px;
+  text-align: center;
+  font-family: $Lato-Light;
+  color: $blanco;
+  font-size: $tx-size-06;
+  span{
+    font-family: $Lato-Bold;
+  }
+}
+.tx-section-xs-02_03{
+  margin:0px 0px 40px 0px;
+  font-family: $Lato-Light;
+  color: $blanco;
+  font-size: $tx-size-06;
+  text-align: center;
+}
+.img-section-xs-02-01{
+  margin: 0px 0px 20px 0px;
+}

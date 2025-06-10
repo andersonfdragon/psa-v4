@@ -1,0 +1,277 @@
+/*SECTION 07 XS*/
+.section-xs-07{
+  padding: 0px 0px 90px 0px;
+}
+
+.tx-section-xs-07_01{
+  text-align: center;
+  margin:0px 0px 40px 0px;
+  font-family: $Lato-Regular;
+  // color: $color03;
+  color: #2B307C;
+  font-size: $tx-size-05;
+  span{
+    font-family: $Lato-Bold;
+  }
+}
+
+/*SECTION ACTUALIZACIONES CARDS XS*/
+.section-actualizaciones-xs-05{
+  padding: 90px 0px;
+}
+
+.tx-section-actualizaciones-xs-05_01{
+  text-align: center;
+  margin:0px 0px 40px 0px;
+  font-family: $Lato-Regular;
+  // color: $color03;
+  color: #2B307C;
+  font-size: $tx-size-05;
+}
+
+/*SECTION ACTUALIZACIONES CARDS WEB*/
+.section-actualizaciones-05{
+  padding: 110px 0px 140px 0px;
+}
+
+.tx-section-actualizaciones-web-05_01{
+  margin:0px 0px 90px 0px;
+  text-align: center;
+  font-size: $tx-size-02;
+  font-family: $Lato-Regular;
+  // color: $color03;
+  color: #2B307C;
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-03;
+    margin: 0px 0px 40px 0px;
+  }
+}
+
+
+/* CARDS SNIPPET */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 270px;
+  height: 350px;
+  border-radius:10px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  @media screen and (max-width: $window-size-02) {
+    width: 100%;
+  }
+}
+
+.flip-card.right{
+  float: right;
+  margin: 0 0 90px 0;
+}
+.flip-card.center{
+  margin: 0 auto 90px auto;
+}
+.flip-card.left{
+  float: left;
+  margin: 0 0 90px 0;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background: url('../pruebas-psicotecnicas/tendisc-psa/images/bg-cards-pruebas-psicotecnicas-psicoalianza-psa-web-psa-sitio-web-2020-psa-imagenes-sitio-web.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px 20px;
+  span{
+    margin: 0px 0px 50px 0px;
+    .global-cards-web-01.icon-card-facil-de-usar::before{
+      color: $blanco;
+      font-size: 70px;
+    }
+    .global-cards-web-01.icon-card-asesoria-especializada::before{
+      color: $blanco;
+      font-size: 70px;
+    }
+    .global-cards-web-01.icon-evaluacion-prueba::before{
+      color: $blanco;
+      font-size: 70px;
+    }
+    .global-cards-web-01.icon-reloj::before{
+      color: $blanco;
+      font-size: 70px;
+    }
+    .global-cards-web-01.icon-card-optimiza-tiempos::before{
+      color: $blanco;
+      font-size: 70px;
+    }
+    .global-cards-web-01.icon-card-pruebas-colombianas::before{
+      color: $blanco;
+      font-size: 70px;
+    }
+  }
+  h3:nth-child(2){
+    margin:0px 0px 0px 0px;
+    font-family: $Lato-Black;
+    color: $blanco;
+    font-size: $tx-size-03;
+  }
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: $blanco;
+  transform: rotateY(180deg);
+  cursor: pointer;
+  border-radius:10px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px 20px;
+  margin: 0px 0px 50px 0px;
+  span{
+    margin: 0px 0px 30px 0px;
+    .global-cards-web-02.icon-card-facil-de-usar::before{
+      color: $color-home-01;
+      font-size: 70px;
+    }
+    .global-cards-web-02.icon-card-asesoria-especializada::before{
+      color: $color-home-01;
+      font-size: 70px;
+    }
+    .global-cards-web-02.icon-evaluacion-prueba::before{
+      color: $color-home-01;
+      font-size: 70px;
+    }
+    .global-cards-web-02.icon-reloj::before{
+      color: $color-home-01;
+      font-size: 70px;
+    }
+    .global-cards-web-02.icon-card-optimiza-tiempos::before{
+      color: $color-home-01;
+      font-size: 70px;
+    }
+    .global-cards-web-02.icon-card-pruebas-colombianas::before{
+      color: $color-home-01;
+      font-size: 70px;
+    }
+  }
+  h3:nth-child(2){
+    margin:0px 0px 0px 0px;
+    font-family: $Lato-Regular;
+    color: $color-home-01;
+    font-size: $tx-size-06;
+    line-height: 1.5;
+    text-align: left;
+    span{
+      font-family: $Lato-Black;
+    }
+  }
+}
+
+/* SLIDER CARDS */
+.item-slider-xs-03-01 {
+  background: url("../pruebas-psicotecnicas/tendisc-psa/images/cards-beneficios-adicionales-ten-disc-psicoalianza.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 270px;
+  border-radius: 10px;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  align-items: center;
+  margin: 0 auto;
+  @media screen and (max-width: $window-size-05-b) {
+    height: 360px;
+    width: 240px;
+  }
+  span{
+    margin: 0px 0px 20px 0px;
+    .global-cards-xs-01.icon-card-facil-de-usar::before{
+      color: $blanco;
+      font-size: 55px;
+    }
+    .global-cards-xs-01.icon-card-asesoria-especializada::before{
+      color: $blanco;
+      font-size: 55px;
+    }
+    .global-cards-xs-01.icon-evaluacion-prueba::before{
+      color: $blanco;
+      font-size: 55px;
+    }
+    .global-cards-xs-01.icon-reloj::before{
+      color: $blanco;
+      font-size: 55px;
+    }
+    .global-cards-xs-01.icon-card-optimiza-tiempos::before{
+      color: $blanco;
+      font-size: 55px;
+    }
+    .global-cards-xs-01.icon-card-pruebas-colombianas::before{
+      color: $blanco;
+      font-size: 55px;
+    }
+  }
+  h3:nth-child(2){
+    margin:0px 0px 25px 0px;
+    font-family: $Lato-Black;
+    color: $blanco;
+    font-size: $tx-size-05 - .2;
+    text-align: center;
+  }
+  p:nth-child(3){
+    margin:0px 0px 0px 0px;
+    font-family: $Lato-Regular;
+    color: $blanco;
+    font-size: $tx-size-06;
+    line-height: 1.5;
+    text-align: center;
+    span{
+      font-family: $Lato-Black;
+    }
+  }
+}
+
+.control-slider-xs-left-01-b{
+  position: absolute;
+  left:-5px;
+  top:40%;
+}
+.control-slider-xs-right-01-b{
+  position: absolute;
+  right:-5px;
+  top:40%;
+}

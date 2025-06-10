@@ -1,0 +1,179 @@
+/* MAIN WEB */
+.offset-slide-main-home-psa{
+  // height: 700px;
+  height: 100%;
+  @media screen and (max-width: $window-size-03) {
+    height: 100%;
+  }
+}
+
+.main-home-psa{
+  position: relative;
+  background-image: url('../images/new-home/background-slider-home-01.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 4.5rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    padding: 4.5rem 1.5rem 0rem 1.5rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 5rem 1.5rem 0rem 1.5rem;
+    background-image: url('../images/new-home/background-slider-home-xs-01.webp');
+  }
+  .carousel-home-left{
+    position: absolute;
+    bottom: 47.5%;
+    left: -10rem;
+    opacity: .9;
+    @media screen and (max-width: 1300px) {
+      left: -8rem;
+    }
+    &:hover{
+      opacity: 1;
+      transition: .25s;
+    }
+    .icon-arrow-left::before{
+      color:$blanco;
+      background: $color-home-10;
+      text-align: center;
+      font-size: $tx-size-02;
+      border-radius: 50%;
+      padding: 1rem;
+      font-weight: bolder;
+      @media screen and (max-width: 1300px) {
+        font-size: $tx-size-03;
+      }
+    }
+  }
+  .carousel-home-right{
+    position: absolute;
+    bottom: 47.5%;
+    right: -10rem;
+    opacity: .9;
+    @media screen and (max-width: 1300px) {
+      right: -8rem;
+    }
+    &:hover{
+      opacity: 1;
+      transition: .25s;
+    }
+    .icon-arrow-right::before{
+      color:$blanco;
+      background: $color-home-10;
+      text-align: center;
+      font-size: $tx-size-02;
+      border-radius: 50%;
+      padding: 1rem;
+      font-weight: bolder;
+      @media screen and (max-width: 1300px) {
+        font-size: $tx-size-03;
+      }
+    }
+  }
+}
+
+.main-home-psa__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5rem;
+  @media screen and (max-width: $window-size-03) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.main-home-psa-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  p:nth-of-type(1){
+    font-size: $tx-size-05 - .2;
+    font-family: $Lato-Bold;
+    margin: 0rem 0rem 2rem 0rem;
+    color: $blanco;
+    @media screen and (max-width: $window-size-03) {
+      margin: 0rem 0rem 2.5rem 0rem;
+      font-size: $tx-size-07;
+      text-align: center;
+    }
+  }
+  h2:nth-of-type(1){
+    font-size: $tx-size-01;
+    font-family: $Lato-Black;
+    margin: 0rem 0rem 3rem 0rem;
+    color: $blanco;
+    @media screen and (max-width: $window-size-03) {
+      margin: 0rem 0rem 4.4rem 0rem;
+      font-size: $tx-size-05 + .2;
+      text-align: center;
+    }
+  }
+  p:nth-of-type(2){
+    font-size: $tx-size-05;
+    font-family: $Lato-Regular;
+    margin: 0rem 0rem 2rem 0rem;
+    color: $blanco;
+    display: flex;
+    span img{
+      width: 15px;
+      margin-right: 1rem;
+    }
+    @media screen and (max-width: $window-size-03) {
+      justify-content: center;
+      font-size: $tx-size-06;
+    }
+    @media screen and (max-width: $window-size-05) {
+      justify-content: flex-start;
+    }
+  }
+  p:nth-of-type(3){
+    font-size: $tx-size-05;
+    font-family: $Lato-Regular;
+    margin: 0rem 0rem 2rem 0rem;
+    color: $blanco;
+    display: flex;
+    span img{
+      width: 15px;
+      margin-right: 1rem;
+    }
+    @media screen and (max-width: $window-size-03) {
+      justify-content: center;
+      font-size: $tx-size-06;
+    }
+    @media screen and (max-width: $window-size-05) {
+      justify-content: flex-start;
+    }
+  }
+  p:nth-of-type(4){
+    font-size: $tx-size-05;
+    font-family: $Lato-Regular;
+    margin: 0rem 0rem 0rem 0rem;
+    color: $blanco;
+    display: flex;
+    span img{
+      width: 15px;
+      margin-right: 1rem;
+    }
+    @media screen and (max-width: $window-size-03) {
+      justify-content: center;
+      font-size: $tx-size-06;
+    }
+    @media screen and (max-width: $window-size-05) {
+      justify-content: flex-start;
+    }
+  }
+  p.--margen-slide{
+    margin-bottom:4.5rem;
+    @media screen and (max-width: $window-size-03) {
+      margin-bottom:3rem;
+    }
+  }
+}
+
+.main-home-psa-content--end{
+  justify-content: flex-end;
+  @media screen and (max-width: $window-size-03) {
+    justify-content: flex-start;
+  }
+}

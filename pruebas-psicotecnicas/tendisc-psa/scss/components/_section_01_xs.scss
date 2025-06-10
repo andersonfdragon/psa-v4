@@ -1,0 +1,30 @@
+/*SECTION 01 XS*/
+.section-xs-01{
+  padding: 120px 0px 50px 0px;
+}
+.tx-section-xs-01_01{
+  margin:0px 0px 20px 0px;
+  text-align: center;
+  font-family: $Lato-Black;
+  color: $color01;
+  font-size: $tx-size-05;
+}
+.tx-section-xs-01_02{
+  margin:0px 0px 50px 0px;
+  text-align: center;
+  font-family: $Lato-Light;
+  color: $oscuro02;
+  font-size: $tx-size-06;
+}
+.tx-section-xs-01_03{
+  margin:0px 0px 50px 0px;
+  font-family: $Lato-Light;
+  color: $oscuro02;
+  font-size: $tx-size-06;
+  span{
+    font-family: $Lato-Bold;
+  }
+}
+.icon-xs-section-01{
+  margin: 15px 0px 0px 0px;
+}

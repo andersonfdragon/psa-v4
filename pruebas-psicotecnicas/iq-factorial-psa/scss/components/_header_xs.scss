@@ -1,0 +1,61 @@
+/*MAQUETACION XS*/
+/* HEADER */
+.header-xs{
+  position: relative;
+  // background: url('../images/bg-header-xs.webp');
+  background: url('../images/header-xs-iq-factorial-psicoalianza.webp'), $color10;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  height: 620px;
+  padding: 50px 0px 0px 0px;
+  @media screen and (max-width: $window-size-05-a) {
+    padding: 40px 0px 0px 0px;
+    background-size: 100% auto;
+    height: 540px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    padding: 30px 0px 0px 0px;
+    background-size: 100% auto;
+    height: 490px;
+  }
+}
+
+.absolute-header-xs{
+  position: absolute;
+  left:0;
+  right:0;
+  bottom: -70px;
+  margin: 0 auto;
+  @media screen and (max-width: $window-size-05-a) {
+    width: 135px;
+    bottom: -60px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    bottom: -60px;
+  }
+}
+
+.tx-header-xs-01{
+  margin:0px 0px 0px 0px;
+  font-family: $Lato-Black;
+  color:$blanco;
+  font-size: $tx-size-07;
+  text-align: center;
+}
+.tx-header-xs-02{
+  margin:20px 0px 0px 0px;
+  font-family: $Lato-Black;
+  color:$blanco;
+  font-size: $tx-size-05;
+  text-align: center;
+}
+.img-header-xs-01{
+  margin:50px 0px 0px 0px;
+  @media screen and (max-width: $window-size-05-a) {
+    margin:40px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-05-b) {
+    margin:30px 0px 0px 0px;
+  }
+}

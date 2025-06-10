@@ -1,0 +1,21 @@
+/*SECTION 03 XS*/
+.section-xs-03{
+  padding: 70px 0px 90px 0px;
+}
+.tx-section-xs-03_01{
+  text-align: center;
+  margin:0px 0px 30px 0px;
+  font-family: $Lato-Black;
+  color: $color01;
+  font-size: $tx-size-05;
+}
+.tx-section-xs-03_02{
+  text-align: center;
+  margin:0px 0px 50px 0px;
+  font-family: $Lato-Light;
+  color: $oscuro02;
+  font-size: $tx-size-06;
+  span{
+    font-family: $Lato-Bold;
+  }
+}

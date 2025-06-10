@@ -1,0 +1,45 @@
+/*SECTION 05 XS*/
+.section-xs-05{
+  padding: 70px 0px 90px 0px;
+}
+
+.tx-section-xs-05_01{
+  text-align: center;
+  margin:0px 0px 50px 0px;
+  font-family: $Lato-Black;
+  color: $color01;
+  font-size: $tx-size-05;
+}
+
+.tx-section-xs-05_02{
+  text-align: center;
+  margin:30px 0px 0px 0px;
+  font-family: $Lato-Regular;
+  color:$color02;
+  font-size: $tx-size-06;
+  min-height: 100px;
+  span{
+    font-family: $Lato-Bold;
+  }
+}
+
+.control-slider-xs-left-01{
+  position: absolute;
+  left:-20px;
+  top:35%;
+}
+.control-slider-xs-right-01{
+  position: absolute;
+  right:-20px;
+  top:35%;
+}
+.control-slider-xs-left-01-b{
+  position: absolute;
+  left:-5px;
+  top:40%;
+}
+.control-slider-xs-right-01-b{
+  position: absolute;
+  right:-5px;
+  top:40%;
+}

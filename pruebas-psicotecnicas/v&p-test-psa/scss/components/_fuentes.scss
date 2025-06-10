@@ -1,0 +1,204 @@
+/* TIPOGRAFIAS */
+@font-face{
+	font-family: 'Lato-Black';
+	src: url('./../../../fonts/Lato-Black.ttf') format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato-Bold';
+	src: url("./../../../fonts/Lato-Bold.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato-Light';
+	src: url("./../../../fonts/Lato-Light.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato-Regular';
+	src: url("./../../../fonts/Lato-Regular.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: 'Lato-Thin';
+	src: url("./../../../fonts/Lato-Thin.ttf") format("truetype");
+	font-weight:normal;
+	font-display: swap;
+}
+
+@font-face {
+  font-family: 'psa-icon-font';
+  src:  url('./../../../fonts/icomoon.ttf?kd5vfr');
+  src:  url('./../../../fonts/icomoon.ttf?kd5vfr') format('truetype');
+  // src:  url('../fonts/icomoon.eot?kd5vfr#iefix') format('embedded-opentype'),
+  //   url('../fonts/icomoon.ttf?kd5vfr') format('truetype'),
+  //   url('../fonts/icomoon.woff?kd5vfr') format('woff'),
+  //   url('../fonts/icomoon.svg?kd5vfr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'psa-icon-font' !important;
+  // speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-especficas:before {
+  content: "\e901";
+}
+.icon-intelectuales:before {
+  content: "\e902";
+}
+.icon-interpersonales:before {
+  content: "\e903";
+}
+.icon-organizacionales:before {
+  content: "\e904";
+}
+.icon-personales:before {
+  content: "\e905";
+}
+.icon-arrow-down:before {
+  content: "\e906";
+}
+.icon-arrow-left:before {
+  content: "\e907";
+}
+.icon-arrow-nav-psa:before {
+  content: "\e908";
+}
+.icon-arrow-right:before {
+  content: "\e909";
+}
+.icon-arrow-up:before {
+  content: "\e90a";
+}
+.icon-camara_seguridad:before {
+  content: "\e90b";
+}
+.icon-card-asesoria-especializada:before {
+  content: "\e90c";
+}
+.icon-card-facil-de-usar:before {
+  content: "\e90d";
+}
+.icon-card-optimiza-tiempos:before {
+  content: "\e90f";
+}
+.icon-card-pruebas-colombianas:before {
+  content: "\e910";
+}
+.icon-check:before {
+  content: "\e911";
+}
+.icon-descargar-reporte:before {
+  content: "\e912";
+}
+.icon-diadema-atencion:before {
+  content: "\e913";
+}
+.icon-error-404:before {
+  content: "\e914";
+}
+.icon-ETHIKOS-confidencialidad:before {
+  content: "\e915";
+}
+.icon-ETHIKOS-honra:before {
+  content: "\e916";
+}
+.icon-ETHIKOS-rectitud:before {
+  content: "\e917";
+}
+.icon-evaluacion-prueba:before {
+  content: "\e918";
+}
+.icon-facebook-circle:before {
+  content: "\e919";
+}
+.icon-hyperlink-blog:before {
+  content: "\e91a";
+}
+.icon-indicador-senalador:before {
+  content: "\e91b";
+}
+.icon-IQFACTORIAL-atencion:before {
+  content: "\e91c";
+}
+.icon-IQFACTORIAL-comprension:before {
+  content: "\e91d";
+}
+.icon-IQFACTORIAL-rapidez:before {
+  content: "\e921";
+}
+.icon-IQFACTORIAL-razonamiento:before {
+  content: "\e922";
+}
+.icon-linkedin-circle:before {
+  content: "\e923";
+}
+.icon-mail:before {
+  content: "\e924";
+}
+.icon-menu-mobile-close:before {
+  content: "\e925";
+}
+.icon-menu-mobile-default:before {
+  content: "\e926";
+}
+.icon-PC-actitud-comercial:before {
+  content: "\e927";
+}
+.icon-PC-caracter:before {
+  content: "\e928";
+}
+.icon-PC-habilidades:before {
+  content: "\e929";
+}
+.icon-personal-information:before {
+  content: "\e92a";
+}
+.icon-phone:before {
+  content: "\e92b";
+}
+.icon-reloj:before {
+  content: "\e92c";
+}
+.icon-TENDISC-competencias:before {
+  content: "\e92d";
+}
+.icon-TENDISC-evaluar-riesgos:before {
+  content: "\e92e";
+}
+.icon-TENDISC-personalidad:before {
+  content: "\e92f";
+}
+.icon-V_PTEST-precision:before {
+  content: "\e930";
+}
+.icon-V_PTEST-velocidad:before {
+  content: "\e931";
+}
+.icon-whatsapp:before {
+  content: "\e932";
+}
+.icon-youtube-circle:before {
+  content: "\e933";
+}

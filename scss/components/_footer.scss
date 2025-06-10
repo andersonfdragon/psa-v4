@@ -1,0 +1,523 @@
+/*FOOTER WEB*/
+footer{
+  // background: url('../images/background-footer-psicoalianza-pruebas-psicotecnicas.webp');
+  // background-repeat: no-repeat;
+  // background-size: 100% 100%;
+  // background-position: center top;
+  background: $negro-home;
+  padding: 9rem 0rem 5rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
+  border-top: 12px solid transparent;
+  border-image-source: $gradient13; 
+  border-image-slice: 1;
+  @media screen and (max-width: $window-size-01) {
+    padding: 9rem 0rem 5rem 0rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    padding: 9rem 0rem 5rem 0rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    background: $negro-home-02;
+    padding: 4rem 0rem 5rem 0rem;
+    // border-top: 5px solid $color-home-09;
+    // border-top: 5px solid transparent;
+    // border-image-source: $gradient13; 
+    // border-image-slice: 1;
+  }
+}
+
+.content-section-footer-xs-01{
+  padding: 0rem 0rem 0rem 1.5rem;
+  img{
+    margin: 0rem 0rem 0rem 0rem;
+    width: 200px;
+  }
+  p{
+    color: $blanco-home;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-07 - .2;
+    margin: 1.5rem 0rem 3.5rem 0rem;
+  }
+}
+
+.content-section-footer-01{
+  img{
+    margin: 0rem 0rem 2rem 0rem;
+    @media screen and (max-width: $window-size-03) {
+      margin: 0rem auto 2rem auto;
+    }
+  }
+  p{
+    color: $blanco-home;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-07;
+    text-align: center;
+    margin: 0rem 0rem 5rem 0rem;
+    @media screen and (max-width: $window-size-01) {
+      font-size: $tx-size-07;
+    }
+  }
+}
+
+.content-section-footer-02{
+  margin: 0rem 0rem 0rem 6rem;
+  @media screen and (max-width: $window-size-01) {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    // border-top: 1px solid $color-home-09;
+    // border-top: 1px solid transparent;
+    // border-image-source: $gradient08-b; 
+    // border-image-slice: 1;
+    padding: 3.5rem 0rem 0rem 1.5rem;
+  }
+  p:nth-child(1){
+    color: $color-home-11;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05 - .2;
+    margin: 0rem 0rem 1.5rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      font-family: $Lato-Bold;
+      font-size: $tx-size-06;
+    }
+  }
+  p:nth-child(2){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(3){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(4){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(5){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(6){
+    margin: 0rem 0rem 5rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+}
+
+.content-section-footer-03{
+  margin: 0rem 0rem 0rem 6rem;
+  @media screen and (max-width: $window-size-01) {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 0rem 1.5rem;
+  }
+  p:nth-child(1){
+    color: $color-home-11;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05 - .2;
+    margin: 0rem 0rem 1.5rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      font-family: $Lato-Bold;
+      font-size: $tx-size-06;
+    }
+  }
+  p:nth-child(2){
+    margin: 0rem 0rem 3rem 0rem;
+    font-size: $tx-size-07;
+    @media screen and (max-width: $window-size-04) {
+      margin: 0rem 0rem 5rem 0rem;
+    }
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+}
+
+.content-section-footer-03-01{
+  margin: 0rem 0rem 0rem 6rem;
+  @media screen and (max-width: $window-size-01) {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 0rem 1.5rem;
+  }
+  p:nth-child(1){
+    color: $color-home-11;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05 - .2;
+    margin: 0rem 0rem 1.5rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      font-family: $Lato-Bold;
+      font-size: $tx-size-06;
+    }
+  }
+  p:nth-child(2){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(3){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(4){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(5){
+    margin: 0rem 0rem 5rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+}
+
+
+
+.content-section-footer-04{
+  margin: 0rem 0rem 0rem 6rem;
+  @media screen and (max-width: $window-size-01) {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 0rem 1.5rem;
+  }
+  p:nth-child(1){
+    color: $color-home-11;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05 - .2;
+    margin: 0rem 0rem 1.5rem 0rem;
+    @media screen and (max-width: $window-size-04) {
+      font-family: $Lato-Bold;
+      font-size: $tx-size-06;
+    }
+  }
+  p:nth-child(2){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      span{
+        margin:0rem 1rem 0rem 0rem;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(3){
+    margin: 0rem 0rem 1.4rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      span{
+        margin:0rem 1rem 0rem 0rem;
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+  p:nth-child(4){
+    margin: 0rem 0rem 2rem 0rem;
+    font-size: $tx-size-07;
+    a{
+      color: $blanco-home;
+      font-family: $Lato-Regular;
+      font-size: $tx-size-07;
+      &:focus{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      &:hover{
+        text-decoration: none;
+        color: $color-home-09;
+      }
+      span{
+        margin:0rem 1rem 0rem 0rem;
+        .footer-style.icon-mail::before{
+          position: relative;
+          top: 3px;
+        }
+      }
+      @media screen and (max-width: $window-size-04) {
+        font-family: $Lato-Regular;
+      }
+    }
+  }
+}
+
+.content-section-footer-04-01{
+  text-align: left;
+  margin: 0rem 0rem 0rem 6rem;
+  @media screen and (max-width: $window-size-01) {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  @media screen and (max-width: $window-size-02) {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 0rem 0rem 3rem 1.5rem;
+  }
+  a{
+    color: $blanco-home;
+    .footer-style-web.icon-linkedin-circle::before,
+    .footer-style-web.icon-facebook-circle::before,
+    .footer-style-web.icon-youtube-circle::before{
+      font-size: 3rem;
+    }
+    &:focus{
+      color: $blanco-home;
+    }
+    &:hover{
+      color: $color-home-09;
+    }
+    span{
+      margin:0rem .5rem 0rem 0rem;
+      @media screen and (max-width: $window-size-04) {
+        margin:0rem 1rem 0rem 0rem;
+      }
+    }
+  }
+}
+
+.content-section-footer-05{
+  border-top: 1px solid $color-home-11;
+  padding: 2rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-04) {
+    padding: 3rem 0rem 0rem 4.5rem;
+  }
+  @media screen and (max-width: $window-size-05) {
+    padding: 3rem 0rem 0rem 3rem;
+  }
+  .tx-section-home-footer-01{
+    color: $blanco-home;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-07;
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-07;
+      margin:0rem 0rem 2rem 0rem;
+    }
+  }
+  a span{
+    margin: 0rem 1rem 0rem 0rem;
+    @media screen and (max-width: $window-size-03) {
+      margin: 0rem .5rem 0rem 0rem;
+    }
+  }
+}
+
+.content-section-footer-05-01{
+  text-align: right;
+  @media screen and (max-width: $window-size-04) {
+    text-align: left;
+  }
+  .tx-section-home-footer-01{
+    color: $blanco-home;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-07;
+    &:focus{
+      text-decoration: none;
+      color: $color-home-09;
+    }
+    &:hover{
+      text-decoration: none;
+      color: $color-home-09;
+    }
+    @media screen and (max-width: $window-size-04) {
+      font-size: $tx-size-07;
+    }
+  }
+  a span{
+    margin: 0rem 1rem 0rem 0rem;
+    @media screen and (max-width: $window-size-03) {
+      margin: 0rem .5rem 0rem 0rem;
+    }
+  }
+}

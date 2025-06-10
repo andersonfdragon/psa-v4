@@ -1,0 +1,36 @@
+/*SECTION 03 WEB*/
+.section-web-03{
+  padding: 170px 0px 140px 0px;
+}
+
+.tx-section-web-03_01{
+  margin:120px 0px 0px 0px;
+  font-size: $tx-size-02;
+  font-family: $Lato-Black;
+  color: $color01;
+  @media screen and (max-width: $window-size-01) {
+    margin:80px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-03;
+    margin:60px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    margin:0px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:0px 0px 0px 0px;
+  }
+}
+
+.tx-section-web-03_02{
+  margin:30px 0px 0px 0px;
+  font-size: $tx-size-05;
+  font-family: $Lato-Light;
+  span{
+    font-family: $Lato-Bold;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}

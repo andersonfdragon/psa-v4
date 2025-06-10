@@ -1,0 +1,183 @@
+/* SLIDES CUSTOM 16/02/2021 */
+/* XS */
+.section-home-xs-01.custom-active{
+  // background: url('../images/background-xs-nuevas-funcionalidades-plataforma-home-psicoalianza.webp');
+  background: url('../images/background-slider-xs-home-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 600px;
+  transition: .5s;
+  // @media screen and (max-width: $window-size-05-a) {
+    // height: 575px;
+  // }
+}
+
+.sliderHomeMobile01.carousel.slide.custom-active{
+  height: 600px;
+  // @media screen and (max-width: $window-size-05-a) {
+  //   height: 575px;
+  // }
+}
+
+.content-section-home-xs-custom-01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  // @media screen and (max-width: $window-size-05-a) {
+  //   height: 575px;
+  // }
+  p:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    text-transform: uppercase;
+    margin:0rem 0rem 3rem 0rem;
+  }
+  h1:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 3rem 0rem;
+  }
+}
+
+
+
+/* WEB */
+.section-home-01.custom-active{
+  background: url('../images/background-nuevas-funcionalidades-plataforma-home-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 830px;
+  transition: .5s;
+  @media screen and (max-width: 1920px) {
+    background-size: cover;
+  }
+  @media screen and (max-width: $window-size-01) {
+    background-size: cover;
+    height: 690px;
+  }
+  @media screen and (max-width: 1399px) {
+    background-size: cover;
+    height: 605px;
+  }
+}
+
+.sliderHome01.carousel.slide.custom-active{
+  height: 830px;
+  @media screen and (max-width: $window-size-01) {
+    background-size: 1590px 690px;
+    height: 690px;
+  }
+  @media screen and (max-width: 1399px) {
+    background-size: 1400px 605px;
+    height: 605px;
+  }
+}
+
+.content-section-home-custom-01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 660px;
+  @media screen and (max-width: $window-size-01) {
+    height: 550px;
+  }
+  @media screen and (max-width: 1399px) {
+    height: 490px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    height: 480px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    height: 450px;
+  }
+  h5:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    text-transform: uppercase;
+    margin: 0rem 0rem 4rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-07;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  }
+  h1:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-01;
+    margin: 0rem 0rem 4rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-03;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  }
+  p:nth-child(3){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 2.5rem 0rem;
+    line-height: 1.5;
+    span:nth-of-type(1){
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+  p:nth-child(4){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 2.5rem 0rem;
+    span:nth-of-type(1){
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+  p:nth-child(5){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 0rem 0rem;
+    span:nth-of-type(1){
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+}
+
+.content-section-home-custom-02{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 660px;
+  @media screen and (max-width: $window-size-01) {
+    height: 550px;
+  }
+  @media screen and (max-width: 1399px) {
+    height: 490px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    height: 480px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    height: 450px;
+  }
+}

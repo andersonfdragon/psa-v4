@@ -1,0 +1,430 @@
+/* FORMULARIO CONTACTO */
+.section-formulario-contacto{
+  background-image: url('../images/new-home/background-slider-home-01.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10rem 0rem 9rem 0rem;
+  // padding: 16rem 0rem 9rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    // padding: 13.5rem 1.5rem 6rem 1.5rem;
+    padding: 7.5rem 1.5rem 6rem 1.5rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    // padding: 4rem 1.5rem 3.5rem 1.5rem;
+    padding: 9rem 1.5rem 3.5rem 1.5rem;
+    background-image: url('../images/new-home/background-slider-home-xs-01.webp');
+  }
+}
+
+.section-formulario-contacto__content{
+  h3:nth-of-type(1){
+    font-size: $tx-size-03;
+    font-family: $Lato-Black;
+    margin: 0rem 0rem 3rem 0rem;
+    color: $blanco;
+    text-align: center;
+    @media screen and (max-width: $window-size-03) {
+      margin: 0rem 0rem 1.5rem 0rem;
+      font-size: $tx-size-05 - .2;
+      padding: 0rem 1.5rem;
+    }
+  }
+  p:nth-of-type(1){
+    font-size: $tx-size-05;
+    font-family: $Lato-Regular;
+    margin: 0rem 0rem 0rem 0rem;
+    color: $blanco;
+    text-align: center;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+      text-align: left;
+      line-height: 1;
+      padding: 0rem 1.5rem;
+    }
+  }
+  p:nth-of-type(2){
+    font-size: $tx-size-05;
+    font-family: $Lato-Regular;
+    margin: 0rem 0rem 0rem 0rem;
+    color: $blanco;
+    text-align: center;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-06;
+      text-align: left;
+      line-height: 1;
+      padding: 0rem 1.5rem;
+    }
+  }
+}
+
+@keyframes transicion-envio{
+  0%{
+    transform: scale(initial);
+  }
+  20%{
+    transform: scale(.9);
+  }
+  35%{
+    transform: scale(1.1);
+  }
+  60%{
+    transform: scale(0.25);
+    opacity:1;
+  }
+  90%{
+    transform: scale(0.25);
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.animacion-form{
+  animation-name: transicion-envio;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+@keyframes opacidad-contenido{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.suavizar-opacidad{
+  animation-name: opacidad-contenido;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+.spinner-border.loader-form{
+  color: $blanco-home;
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 575px) {
+  .spinner-border.loader-form{
+    margin-top: 35px;
+  }
+}
+
+.tx-seccion-form-send {
+  color: $blanco-home;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-06;
+  }
+}
+
+
+form.formulario-contacto-psa{
+  padding: 8rem 0rem 0rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 7rem;
+  @media screen and (max-width: $window-size-03) {
+    padding: 1.5rem 0rem 0rem 0rem;
+    grid-template-columns: 1fr;
+    // row-gap: 1.5rem;
+  }
+  .form-group{
+    position: relative;
+    margin: 0rem 0rem 1.5rem 0rem;
+    @media screen and (max-width: $window-size-03) {
+      margin: 0rem 0rem .6rem 0rem;
+    }
+  }
+  .form-control{
+    border: 2px solid $color-home-10;
+    border-radius: 1rem;
+    font-size: $tx-size-06;
+    padding: 0rem 1rem 0rem 2rem;
+    height: 4.7rem;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-07;
+      padding: 1rem 1rem 1rem 1.5rem;
+      height: 3.3rem;
+    }
+  }
+  .select {
+    display: grid;
+    grid-template-areas: "select";
+    // align-items: center;
+    // width: 100%;
+    // min-width: 15ch;
+    // max-width: 30ch;
+    // border: 1px solid var(--select-border);
+    // border-radius: 0.25em;
+    // padding: 0.25em 0.5em;
+    // font-size: 1.25rem;
+    // cursor: pointer;
+    // line-height: 1.1;
+    // background-color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    // background-image: linear-gradient(to top, #000, #000 33%);
+  }
+  #cargo,
+  #uso-pruebas,
+  .select:after {
+    grid-area: select;
+  }
+  .select::after {
+    // content: "A";
+    font-family: 'psa-icon-font' !important;
+    font-weight: bolder;
+    font-size: $tx-size-06;
+    content: "\e906";
+    color: $blanco;
+    text-align: center;
+    line-height: 4.7rem;
+    // width: 0.8em;
+    // height: 0.5em;
+    width: 4.8rem;
+    height: 100%;
+    border-radius: 1rem;
+    // background-color: $blanco;
+    // clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    justify-self: end;
+    background: $gradient13;
+    @media screen and (max-width: $window-size-03) {
+      line-height: 3.3rem;
+      width: 3.5rem;
+      height: 100%;
+      font-size: $tx-size-07;
+    }
+  }
+  #cargo,
+  #uso-pruebas{
+  //   // A reset of styles, including removing the default dropdown arrow
+  //   appearance: none;
+  //   // Additional resets for further consistency
+    background-color: $blanco-home;
+  //   background-color: $blanco-home;
+  //   border: none;
+  //   padding: 0 1em 0 0;
+  //   margin: 0;
+  //   width: 100%;
+  //   font-family: inherit;
+  //   font-size: inherit;
+  //   cursor: inherit;
+  //   line-height: inherit;
+  //   outline: none;
+  //   &:focus{
+  //     background: none;
+  //   }
+  //   &:hover{
+  //     background: none;
+  //   }
+  }
+  #cargo,
+  #uso-pruebas::-ms-expand {
+    display: none;
+  }
+  .select-componente.collapse,
+  .select-componente.collapsing{
+    // background: transparent;
+    position: absolute;
+    top:47px;
+    z-index: 5;
+    @media screen and (max-width: $window-size-03) {
+      position: static;
+    }
+  }
+  .select-componente.card.card-body{
+    padding: 0;
+    margin: 0;
+    border-radius: 0rem 0rem 1rem 1rem;
+    border-left: 2px solid $color-home-10;
+    border-bottom: 2px solid $color-home-10;
+    border-right: 2px solid $color-home-10;
+    ul{
+      background: $blanco;
+      margin: 0;
+      list-style: none;
+      border-radius: 1rem;
+      li{
+        display: block;
+        color: $negro;
+        cursor: pointer;
+        // margin: 0px 1px 0px 1px;
+        padding: 1.4rem 2rem;
+        font-family: $Lato-Regular;
+        font-size: $tx-size-06;
+        @media screen and (max-width: $window-size-03) {
+          font-size: $tx-size-07;
+          padding: .8rem 1.3rem;
+        }
+        &:focus{
+          color: $blanco;
+          background: $color14;
+        }
+        &:hover{
+          color: $blanco;
+          background: $color14;
+        }
+        
+      }
+      li:last-of-type{
+        &:focus{
+          border-radius: 0rem 0rem 1rem 1rem;
+        }
+        &:hover{
+          border-radius: 0rem 0rem 1rem 1rem;
+        }
+      }
+    }
+  }
+  // .optional{
+    // margin-top: 1.5rem;
+  // }
+}
+
+.formulario-contacto-psa__column--grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  @media screen and (max-width: $window-size-03) {
+    grid-template-columns: 1fr;
+    // row-gap: 1.5rem;
+  }
+}
+
+.checkbox-terminos-form{
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: flex-start;
+  // align-items: center;
+  // flex-wrap: wrap;
+  // gap: 0rem 1.5rem;
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  grid-template-rows: 2;
+  column-gap: 1.5rem;
+  row-gap: .3rem;
+  // margin: 0rem 0rem 1.5rem 0rem;
+  margin: 0rem 0rem 2.4rem 0rem;
+  @media screen and (max-width: $window-size-03) {
+    padding: 0rem 1rem;
+    margin: 1rem 0rem 1.5rem 0rem;
+    row-gap: .3rem;
+    // align-items: flex-start;
+  }
+  input[type="checkbox"]{
+    width: 32px;
+    height: 20px;
+  }
+  input[type="checkbox"]:unchecked{
+    width: 32px;
+    height: 20px;
+  }
+  p:nth-of-type(1){
+    // font-size: $tx-size-07;
+    font-size: $tx-size-06;
+    font-family: $Lato-Regular;
+    margin: 0rem 0rem 0rem 0rem;
+    color: $blanco;
+    line-height: 1;
+    @media screen and (max-width: $window-size-03) {
+      // font-size: $tx-size-07 - .2;
+      font-size: $tx-size-07;
+    }
+    a{
+      // font-size: $tx-size-07;
+      font-size: $tx-size-06;
+      color:$blanco-home;
+      font-family: $Lato-Bold;
+      @media screen and (max-width: $window-size-03) {
+        // font-size: $tx-size-07 - .2;
+        font-size: $tx-size-07;
+      }
+      &:hover{
+        // color:$color-home-10;
+        color:$blanco-home;
+      }
+    }
+  }
+}
+
+.alerta-input{
+  font-size: $tx-size-06;
+  font-family: $Lato-Regular;
+  margin: .3rem 0rem 0rem 2rem;
+  color: $blanco;
+  line-height: 1;
+  @media screen and (max-width: $window-size-03) {
+    margin: .6rem 0rem 0rem 1.5rem;
+    font-size: $tx-size-07;
+  }
+}
+.alerta-input-completar-campos{
+  font-size: $tx-size-06;
+  font-family: $Lato-Regular;
+  margin: .3rem 0rem 0rem 2rem;
+  color: $blanco;
+  line-height: 1;
+  @media screen and (max-width: $window-size-03) {
+    margin: .6rem 0rem 0rem 1.5rem;
+    font-size: $tx-size-07;
+  }
+}
+.alerta-input.grid-checkbox{
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+/* TERMINOS Y CONDICIONES */
+.seccion-terminos{
+  padding: 50px 0px;
+  @media screen and (max-width: $window-size-04) {
+    padding: 15px 0px;
+  }
+}
+.tx-section-terminos-01{
+  color:$color01;
+  font-family: $Lato-Black;
+  font-size: $tx-size-01;
+  margin:0rem 0rem 3rem 0rem;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-05 + .2;
+  }
+}
+
+.tx-section-terminos-02{
+  color:$color01;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05 + .2;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-05 - .2;
+  }
+}
+  
+.tx-section-terminos-03{
+	color:$negro;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05;
+  text-align: justify;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-06;
+  }
+}
+
+.enlace-terminos{
+  color: blue;
+  font-family: $Lato-Light;
+  font-size: $tx-size-05;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-06;
+  }
+}

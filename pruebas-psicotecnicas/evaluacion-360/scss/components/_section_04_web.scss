@@ -1,0 +1,39 @@
+/*SECTION 04 WEB*/
+.section-web-04{
+  padding: 80px 0px 40px 0px;
+  background-color: $claro01;
+}
+
+.tx-section-web-04_01{
+  margin:40px 0px 0px 0px;
+  font-size: $tx-size-02;
+  font-family: $Lato-Black;
+  color: $color01;
+  @media screen and (max-width: $window-size-02) {
+    margin:40px 0px 40px 0px;
+    font-size: $tx-size-03;
+  }
+  @media screen and (max-width: $window-size-03) {
+    margin:50px 0px 40px 0px;
+    font-size: $tx-size-04;
+  }
+}
+.tx-section-web-04_02{
+  margin:0px 0px 0px 0px;
+  font-size: $tx-size-05;
+  font-family: $Lato-Bold;
+  color: $negro;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}
+
+.tx-section-web-04_03{
+  margin:20px 0px 40px 0px;
+  font-size: $tx-size-05;
+  font-family: $Lato-Regular;
+  color: $negro;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}

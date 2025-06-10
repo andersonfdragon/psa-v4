@@ -1,0 +1,30 @@
+/*MODALES WEB*/
+.iframe-modal-condiciones {
+  height: 520px;
+  border-top: 1px solid #EAEAEA;
+  border-left: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  border-right: none;
+  margin: 0px 0px 10px 0px;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  .iframe-modal-condiciones {
+    height: 65vh;
+  }
+}
+
+.modalTerminos.modal-dialog{
+  max-width: 1080px;
+  margin:8rem auto 2rem auto;
+  @media screen and (max-width: $window-size-02) {
+    max-width: 800px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    margin:7rem auto 2rem auto;
+    max-width: 650px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    max-width: 90%;
+  }
+}

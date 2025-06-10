@@ -1,0 +1,29 @@
+/*SECTION 06 WEB*/
+.section-web-06{
+  background: url('../images/fondo-agendar-demostracion-de-prueba-potencial-comercial-psicoalianza.webp');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 635px;
+}
+
+.content-section-web-06{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  height: 635px;
+}
+
+.tx-section-web-06_01{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: $tx-size-02;
+  font-family: $Lato-Black;
+  color: $blanco;
+  margin: 0px 0px 70px 0px;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-03;
+    margin: 0px 0px 40px 0px;
+  }
+}

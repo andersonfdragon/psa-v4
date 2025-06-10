@@ -1,0 +1,261 @@
+/* BOTONES */
+.margen-btn-componente{
+  margin: 3rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-03) {
+    text-align: center;
+  }
+}
+
+.center-btn{
+  text-align: center;
+  P{
+    margin-left:0rem;
+    margin-right:0rem;
+  }
+}
+
+.btn-componente-psa{
+  display: inline-block;
+  background: $gradient13;
+  border-radius: 3rem;
+  padding: .9rem 5rem;
+  box-shadow: 0rem .5rem 1rem rgba(0,0,0,.25);
+  width: auto;
+  color:$blanco;
+  font-size: $tx-size-05;
+  font-family: $Lato-Bold;
+  span.icon-arrow-right::before{
+    margin-left: 2rem;
+    font-size: $tx-size-07;
+    font-weight: bolder;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-07 - .2;
+    }
+  }
+  span.icon-arrow-left::before{
+    margin-right: 2rem;
+    font-size: $tx-size-07;
+    font-weight: bolder;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-07 - .2;
+    }
+  }
+  &:focus{
+    background: $gradient13;
+    color:$blanco;
+  }
+  &:hover{
+    background: $color-home-10;
+    color:$blanco;
+    cursor: pointer;
+  }
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-06;
+    padding: 1rem 3rem;
+  }
+}
+
+.btn-componente-psa--formulario{
+  // display: block;
+  // width: 100%;
+  outline: none;
+  border: none;
+  &:focus{
+    outline: none;
+  }
+  @media screen and (max-width: $window-size-03) {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+.close-modal-terminos{
+  display: block;
+  color:$color01;
+  font-size: $tx-size-05;
+  font-family: $Lato-Regular;
+  text-align: right;
+  margin-bottom: 20px;
+  &:focus{
+    text-decoration: none;
+    color:$color01;
+  }
+  &:hover{
+    text-decoration: none;
+    color:$color01;
+  }
+  span img{
+    width: 30px;
+    @media screen and (max-width: $window-size-04) {
+      width: 20px;
+    }
+  }
+}
+
+.btn-psa-01{
+  position: relative;
+  border-radius: 25px;
+  padding: 7px 55px;
+  float: right;
+  color:$blanco;
+  background: $gradient02;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05;
+  &:hover{
+    color:$blanco;
+  }
+  span img{
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    @media screen and (max-width: $window-size-01) {
+      top: 4px;
+    }
+  }
+  @media screen and (max-width: $window-size-01) {
+    font-size: $tx-size-06;
+  }
+  @media screen and (max-width: $window-size-04) {
+    padding: 7px 55px 7px 20px;
+  }
+}
+
+.btn-psa-02{
+  display: block;
+  margin: 60px 0px 50px 0px;
+  padding: 3px 0px;
+  float: right;
+  color:$oscuro01;
+  font-family: $Lato-Bold;
+  font-size: $tx-size-05;
+  border-bottom: 1px solid $oscuro01;
+  &:focus{
+    color:$color-home-01;
+    border-bottom: 1px solid $color-home-01;
+  }
+  &:hover{
+    color:$color-home-01;
+    border-bottom: 1px solid $color-home-01;
+  }
+  span img{
+    margin:0px 0px 0px 7px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}
+
+.btn-psa-03{
+  width: 25%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 20px 20px;
+  color:$blanco;
+  background: $gradient02;
+  font-family: $Lato-Black;
+  font-size: $tx-size-05 - .2;
+  border: 1px solid $blanco;
+  &:focus{
+    color:$blanco;
+    background: $verde-home;
+  }
+  &:hover{
+    color:$blanco;
+    background: $verde-home;
+  }
+  @media screen and (max-width: $window-size-01) {
+    width: 35%;
+    font-size: $tx-size-06;
+  }
+  @media screen and (max-width: $window-size-02) {
+    width: 40%;
+  }
+  @media screen and (max-width: $window-size-03) {
+    width: 55%;
+  }
+  @media screen and (max-width: $window-size-04) {
+    width: 80%;
+    font-family: $Lato-Black;
+  }
+  @media screen and (max-width: $window-size-05) {
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 10px;
+    font-size: $tx-size-06;
+  }
+}
+
+
+// .contact-btn-footer-xs{
+//   // text-align: center;
+//   display:block;
+//   color:$blanco;
+//   background: $gradient08;
+//   font-size: $tx-size-06 + .2;
+//   font-family: $Lato-Black;
+//   // width: 100%;
+//   max-width: 245px;
+//   padding: 10px 10px 10px 25px;
+//   border-radius: .5rem;
+//   margin: 0 auto;
+//   &:focus{
+//     text-decoration: none;
+//     color:$blanco;
+//     background: $azul-home;
+//   }
+//   &:hover{
+//     text-decoration: none;
+//     color:$blanco;
+//     background: $azul-home;
+//   }
+//   span{
+//     margin-right: 2rem;
+//     .contacto-agil.icon-personal-information::before{
+//       color: $blanco-home;
+//     }
+//     .contacto-agil.icon-whatsapp::before{
+//       color: $blanco-home;
+//     }
+//   }
+// }
+
+.contact-btn-footer-xs{
+  // text-align: center;
+  position: relative;
+  display:block;
+  color:$blanco;
+  background: $gradient08;
+  font-size: $tx-size-06;
+  font-family: $Lato-Black;
+  // width: 100%;
+  max-width: 245px;
+  // padding: 10px 10px 10px 25px;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+  border-radius: .5rem;
+  margin: 0 auto;
+  &:focus{
+    text-decoration: none;
+    color:$blanco;
+    background: $azul-home;
+  }
+  &:hover{
+    text-decoration: none;
+    color:$blanco;
+    background: $azul-home;
+  }
+  span{
+    // margin-right: 2rem;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    .contacto-agil.icon-personal-information::before{
+      color: $blanco-home;
+      font-size: $tx-size-04;
+    }
+    .contacto-agil.icon-whatsapp::before{
+      color: $blanco-home;
+      font-size: $tx-size-04;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* SECTION 06 */
+.section-home-psa-06{
+  padding: 6rem 0rem 0rem 0rem;
+  @media screen and (max-width: $window-size-03) {
+    padding: 3rem 0rem 0rem 0rem;
+  }
+}
+
+.section-home-psa-06__content{
+  h2:nth-of-type(1){
+    font-size: $tx-size-01;
+    font-family: $Lato-Black;
+    margin: 0rem 0rem 4rem 0rem;
+    color: $color-home-11;
+    text-align: center;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-05;
+      margin: 0rem 0rem 2.5rem 0rem;
+      text-align: center;
+    }
+  }
+}

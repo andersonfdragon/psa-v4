@@ -1,0 +1,239 @@
+/* GLOBALES */
+$Lato-Black: 'Lato-Black';
+$Lato-Black-Italic: 'Lato-Black-Italic';
+$Lato-Bold: 'Lato-Bold';
+$Lato-Bold-Italic: 'Lato-Bold-Italic';
+$Lato-Italic: 'Lato-Italic';
+// $Lato-Light: 'Lato-Light';
+$Lato-Light: 'Lato-Regular';
+$Lato-Light-Italic: 'Lato-Light-Italic';
+$Lato-Medium: 'Lato-Medium';
+$Lato-Regular: 'Lato-Regular';
+
+$window-size-01: 1589px;
+$window-size-02: 1199px;
+$window-size-03: 991px;
+$window-size-04: 767px;
+$window-size-05: 575px;
+$window-size-05-a: 480px;
+$window-size-05-b: 380px;
+
+$padding0: 0px;
+$padding1: 30px;
+
+// BK FONTS SIZE
+// $tx-size-01: 44px;
+// $tx-size-02: 38px;
+// $tx-size-03: 28px;
+// $tx-size-04: 24px;
+// $tx-size-05: 18px;
+// $tx-size-06: 16px;
+// $tx-size-07: 14px;
+
+// VARIANLES BASE DE LA PLANTILLA
+// $tx-size-01: 4rem;
+// $tx-size-02: 3.5rem;
+// $tx-size-03: 3rem;
+// $tx-size-04: 2.5rem;
+// $tx-size-05: 2rem;
+// $tx-size-06: 1.5rem;
+// $tx-size-07: 1.4rem;
+
+$tx-size-01: 4rem;
+$tx-size-02: 3.8rem;
+$tx-size-03: 2.8rem;
+$tx-size-04: 2.4rem;
+$tx-size-05: 2.0rem;
+$tx-size-06: 1.6rem;
+$tx-size-07: 1.4rem;
+
+$color01: #F3903F;
+$color02: #EF743D;
+$color03: #5E308B;
+$color04: #4FCA91;
+$color05: #035171; 
+
+$color06: #81C342; 
+$color07: #FCDC2C; 
+$color08: #ED1C24; 
+$color09: #0A0A21; 
+$color10: #EA7841; 
+
+$color14: #00A9E4; 
+
+$blanco: #FFF;
+$negro: #000;
+
+$claro01: #E0E0E0;
+$claro02: #BDBDBD;
+
+$oscuro01: #828282;
+$oscuro02: #212121;
+
+$gris01: #F5F5F5; 
+$gris02: #D0D2D3; 
+$gris03: rgba(29,29,29,.59); 
+
+// VARIABLES IMPORTADAS DEL HOME -> NAV - FOOTER - CONTACTO AGIL 
+$color-home-01: #2A2A80;
+$color-home-02: #0A0A21;
+
+$color-home-03: #035171;
+$color-home-04: #7B2627;
+$color-home-05: #4D3488; 
+$color-home-06: #F1803E; 
+$color-home-07: #2AB296; 
+$color-home-08: #1E5D79; 
+$verde-home: #1BCE97;
+$azul-home: #2B307C;
+
+$color-home-09: #298BBA; 
+$color-home-10: #A92345; 
+$color-home-11: #008EBF; 
+
+$blanco-home: #FFF;
+$negro-home: #1D1D1D;
+$negro-home-02: #1E1E1E;
+
+$claro-home-01: rgba(255,255,255,.2);
+$claro-home-02: rgba(255,255,255,.3);
+
+$gris-home-01: #F5F5F5; 
+
+//////////////////////////////////////////////////////////////////////////////////
+
+// $gradient01: linear-gradient(180deg, rgba(43,94,128,1) 0%, rgba(27,206,151,1) 100% );
+// $gradient02: linear-gradient(90deg, rgba(43,94,128,1) 0%, rgba(27,206,151,1) 100% );
+
+// $gradient03: linear-gradient(180deg, rgba(40,60,128,1) 0%, rgba(97,48,140,1) 100% );
+// $gradient04: linear-gradient(90deg, rgba(40,60,128,1) 0%, rgba(97,48,140,1) 100% );
+
+// $gradient05: linear-gradient(180deg, rgba(74,9,135,1) 0%, rgba(159,15,64,1) 100% );
+// $gradient06: linear-gradient(90deg, rgba(74,9,135,1) 0%, rgba(159,15,64,1) 100% );
+
+// $gradient07: linear-gradient(180deg,rgba(3,81,113,1) 0%, rgba(4,117,164,1) 100%);
+// $gradient08: linear-gradient(90deg,rgba(3,81,113,1) 0%, rgba(4,117,164,1) 100%);
+
+// $gradient09: linear-gradient(180deg,rgba(3,81,113,.3) 0%, rgba(4,117,164,.3) 100%);
+// $gradient10: linear-gradient(90deg,rgba(3,81,113,.3) 0%, rgba(4,117,164,.3) 100%);
+// $gradient01: linear-gradient(180deg, rgba(43,94,128,1) 0%, rgba(27,206,151,1) 100% );
+
+////////////////////////////////////////////////////////////////////////////////////
+// $gradient02: linear-gradient(90deg, rgba(43,94,128,1) 0%, rgba(27,206,151,1) 100% );
+$gradient01: linear-gradient(-180deg, rgba(27,206,151,1) 0%, rgba(0,125,174,1) 100% );
+$gradient02: linear-gradient(-90deg, rgba(27,206,151,1) 0%, rgba(0,125,174,1) 100% );
+
+$gradient03: linear-gradient(180deg, rgba(40,60,128,1) 0%, rgba(97,48,140,1) 100% );
+$gradient04: linear-gradient(90deg, rgba(40,60,128,1) 0%, rgba(97,48,140,1) 100% );
+
+$gradient05: linear-gradient(180deg, rgba(159,15,64,1) 0%, rgba(74,9,135,1) 100% );
+$gradient06: linear-gradient(90deg, rgba(159,15,64,1) 0%, rgba(74,9,135,1) 100% );
+
+$gradient07: linear-gradient(-180deg, rgba(43,48,124,1) 0% , rgba(41,139,186,1) 100%);
+$gradient08: linear-gradient(270deg, rgba(43,48,124,1) 0% , rgba(41,139,186,1) 100%);
+$gradient08-b: linear-gradient(-270deg, rgba(43,48,124,1) 0% , rgba(41,139,186,1) 100%);
+
+$gradient09: linear-gradient(180deg,rgba(3,81,113,.3) 0%, rgba(4,117,164,.3) 100%);
+$gradient10: linear-gradient(90deg,rgba(3,81,113,.3) 0%, rgba(4,117,164,.3) 100%);
+
+$gradient11: linear-gradient(-180deg, rgba(4,117,164,1) 0% , rgba(3,81,113,1) 100%);
+$gradient12: linear-gradient(-90deg, rgba(4,117,164,1) 0% , rgba(3,81,113,1) 100%);
+
+$gradient13: linear-gradient(90deg, #3D307A 0%, #A92345 100%);
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  /** Fusiona padding con medidas especificas **/
+  font-size: 62.5%;
+  /** Reset para REMS - 62.5% => 10px === 1rem **/
+}
+
+a,p,h1,h2,h3,h4,h5,h6{
+  font-family: $Lato-Regular;
+  margin:0px;
+  padding:0px;
+  text-decoration: none;
+  color:$negro;
+  font-size: $tx-size-05;
+  line-height: 1.25;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.class_tx_h1{
+	position: absolute;
+	top:-500px;
+	z-index: -1;
+}
+
+.sin-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#backdrop-menu-agil.show {
+  opacity: 1;
+}
+
+#backdrop-menu-agil {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(90deg, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%);
+}
+
+.modal-backdrop {
+  background: linear-gradient(90deg, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%);
+}
+
+img:not([src]):not([srcset]) {
+  visibility: hidden;
+}
+
+.modal.show{
+  z-index: 1400;
+}
+.modal-backdrop {
+  z-index: 1350;
+  background: linear-gradient(90deg, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%);
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.overflow-nav-principal{
+  // height: calc(100vh - 64px); // Alto del header
+  height: calc(100vh - 60.5px); // Alto del header
+  overflow: auto;
+}
+
+@keyframes animation-opacity{
+  0%{
+    opacity: 0%;
+  }
+  25%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+.animation-opacity{
+  opacity: 1;
+  animation-name: animation-opacity;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}

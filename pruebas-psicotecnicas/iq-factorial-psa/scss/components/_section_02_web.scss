@@ -1,0 +1,109 @@
+/*SECTION 02 WEB*/
+.bg-section-web-02{
+  background:$color01;
+}
+.section-web-02{
+  background: none;
+  height: 1055px;
+  padding: 200px 0px 0px;
+  @media screen and (max-width: 1920px) {
+    background: url('../images/background-aspectos-evaluados-iq-factorial-psicoalianza.webp');
+    background-repeat: no-repeat;
+    background-size: 1920px 1055px;
+    background-position: 18.5% center;
+    height: 1055px;
+    padding: 200px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-01) {
+    background-size: 1480px 750px;
+    background-position: 18.5% center;
+    height: 750px;
+    padding: 40px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    background-size: 1366px 750px;
+    background-position: 30% center;
+    height: 750px;
+    padding: 40px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    background: none;
+    padding: 20px 0px 0px 0px;
+  }
+}
+
+.tx-section-web-02_01{
+  margin:260px 0px 0px 0px;
+  color: $blanco;
+  font-family: $Lato-Black;
+  font-size: $tx-size-02;
+  @media screen and (max-width: $window-size-01) {
+    margin:240px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-03;
+    margin:250px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-03) {
+    margin:260px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:240px 0px 0px 0px;
+    font-size: $tx-size-04;
+  }
+}
+.tx-section-web-02_02{
+  margin:30px 0px 0px 0px;
+  color: $blanco;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05;
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-06;
+  }
+  span{
+    font-family: $Lato-Bold;
+  }
+}
+.tx-section-web-02_03{
+  margin:30px 0px 0px 0px;
+  color: $blanco;
+  font-family: $Lato-Black;
+  font-size: $tx-size-03;
+  span{
+    margin:0px 10px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-04;
+  }
+  @media screen and (max-width: $window-size-04) {
+    font-size: $tx-size-05;
+    margin:40px 0px 0px 0px;
+  }
+}
+.tx-section-web-02_03b{
+  margin:50px 0px 0px 0px;
+  color: $blanco;
+  font-family: $Lato-Black;
+  font-size: $tx-size-03;
+  span{
+    margin:0px 10px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-04;
+    margin:60px 0px 0px 0px;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:35px 0px 0px 0px;
+    font-size: $tx-size-05;
+  }
+}
+.tx-section-web-02_04{
+  margin:15px 0px 0px 0px;
+  // color: $claro01;
+  color: $blanco;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-05;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+}

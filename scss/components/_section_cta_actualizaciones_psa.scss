@@ -1,0 +1,68 @@
+/*SECTION ACTUALIZACIONES CTA XS*/
+.section-actualizaciones-xs-04{
+  position: relative;
+  margin-top: -1rem;
+  bottom:0;
+
+  background: url('../pruebas-psicotecnicas/tendisc-psa/images/fondo-agendar-demostracion-de-prueba-xs-ten-disc-psicoalianza.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 590px;
+  @media screen and (max-width: $window-size-05-a) {
+    min-height: 390px;
+  }
+}
+
+.content-section-actualizaciones-xs-04{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 590px;
+  @media screen and (max-width: $window-size-05-a) {
+    min-height: 390px;
+  }
+}
+.tx-section-actualizaciones-xs-04_01{
+  text-transform: uppercase;
+  text-align: center;
+  margin:0px 0px 30px 0px;
+  font-family: $Lato-Black;
+  color: $blanco;
+  font-size: $tx-size-05;
+}
+
+/*SECTION ACTUALIZACIONES CTA WEB*/
+.section-actualizaciones-04{
+  position: relative;
+  margin-top: -6rem;
+  bottom:0;
+
+  background: url('../pruebas-psicotecnicas/tendisc-psa/images/fondo-agendar-demostracion-de-prueba-ten-disc-psicoalianza.webp');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 635px;
+}
+
+.content-section-actualizaciones-web-04{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  height: 635px;
+}
+
+.tx-section-actualizaciones-web-04_01{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: $tx-size-02;
+  font-family: $Lato-Black;
+  color: $blanco;
+  margin: 0px 0px 70px 0px;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-03;
+    margin: 0px 0px 40px 0px;
+  }
+}

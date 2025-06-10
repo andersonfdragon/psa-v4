@@ -1,0 +1,45 @@
+/*SECTION 01 WEB*/
+.section-web-01{
+  padding: 140px 0px 140px 0px;
+}
+
+.tx-section-web-01_01{
+  margin:0px 0px 30px 0px;
+  color: $color01;
+  font-family: $Lato-Black;
+  font-size: $tx-size-02;
+  @media screen and (max-width: $window-size-03) {
+    font-size: $tx-size-03;
+  }
+}
+
+.tx-section-web-01_02{
+  margin:5px 0px 50px 0px;
+  font-family: $Lato-Light;
+  font-size: $tx-size-05;
+  span{
+    font-family: $Lato-Bold;
+  }
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+  }
+  @media screen and (max-width: $window-size-04) {
+    margin:0px 0px 50px 0px;
+  }
+}
+
+.img-section-web-01-01{
+  margin: 70px 0px 0px 0px;
+  @media screen and (max-width: $window-size-01) {
+    display: block;
+    margin: 100px auto 0px auto;
+  }
+  @media screen and (max-width: $window-size-02) {
+    display: block;
+    margin: 150px auto 0px auto;
+  }
+  @media screen and (max-width: $window-size-03) {
+    display: block;
+    margin: 30px auto 0px auto;
+  }
+}

@@ -1,0 +1,78 @@
+/* SECTION 09*/
+.section-home-psa-09{
+  position: relative;
+  background-image: url('../images/new-home/background-slider-home-02.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 5rem 0rem  0rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    padding: 4.5rem 1.5rem 0rem 1.5rem;
+  }
+  @media screen and (max-width: $window-size-03) {
+    padding: 5rem 1.5rem 0rem 1.5rem;
+  }
+  @media screen and (max-width: $window-size-04) {
+    background-image: url('../images/new-home/background-slider-home-xs-02.webp');
+  }
+}
+.section-home-psa-09__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5rem;
+  @media screen and (max-width: $window-size-03) {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+}
+
+.section-home-psa-09__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  h3:nth-of-type(1){
+    font-size: $tx-size-03;
+    font-family: $Lato-Black;
+    margin: 0rem 0rem 3rem 0rem;
+    color: $negro;
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-05 - .2;
+      margin: 0rem 0rem 2.5rem 0rem;
+      text-align: center;
+    }
+  }
+  p:nth-of-type(1){
+    font-size: $tx-size-05;
+    font-family: $Lato-Regular;
+    margin: 0rem 0rem 0rem 0rem;
+    color: $negro;
+    display: flex;
+    span img{
+      width: 15px;
+      margin-right: 1rem;
+    }
+    @media screen and (max-width: $window-size-03) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 0rem 0rem;
+      line-height: 1;
+      justify-content: center;
+    }
+    @media screen and (max-width: $window-size-05) {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.section-home-psa-09__content--testimonial{
+  h3:nth-of-type(1){
+    color: $color-home-11;
+  }
+}
+
+// .section-home-psa-09__content--img{
+//   @media screen and (max-width: $window-size-03) {
+//     // grid-row: 1 / 2;
+//     // margin:0rem 0rem 4rem 0rem;
+//   }
+// }

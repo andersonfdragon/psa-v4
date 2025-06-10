@@ -1,0 +1,391 @@
+/* NUEVAS ACTUALIZACIONES PSA LANDING PAGE*/
+/* SECTION ACTUALIZACIONES XS 01*/
+.section-actualizaciones-xs-01{
+  background: url('../images/background-xs-nuevas-funcionalidades-plataforma-home-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 600px;
+}
+
+/* SECTION ACTUALIZACIONES XS 02*/
+.section-actualizaciones-xs-02{
+  padding: 8rem 0rem 0rem 0rem;
+  h2:nth-of-type(1){
+    color: $color01;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-05;
+    text-align: center;
+    margin:0rem 0rem 5rem 0rem;
+  }
+}
+
+.content-section-actualizaciones-xs-02_01{
+  padding: 3rem 2rem 6rem 2rem;
+  background: #FFF;
+  h3:nth-of-type(1){
+    color: $color01;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06 + .2;
+    margin: 4.5rem 0rem 3.5rem 0rem;
+  }
+  p:nth-of-type(1){
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 2.5rem 0rem;
+  }
+  p{
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+.content-section-actualizaciones-xs-02_02{
+  padding: 3rem 2rem 6rem 2rem;
+  background: rgba(196,196,196,.15);
+  h3:nth-of-type(1){
+    color: $color01;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06 + .2;
+    margin: 4.5rem 0rem 3.5rem 0rem;
+  }
+  p:nth-of-type(1){
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 2.5rem 0rem;
+  }
+  p{
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+
+/* SECTION ACTUALIZACIONES XS 03*/
+.section-actualizaciones-xs-03{
+  background: #16162B;
+  border-top: 10px solid transparent;
+  border-image-source: $gradient08; 
+  border-image-slice: 1;
+  padding: 7rem 0rem 10rem 0rem;
+}
+.content-section-actualizaciones-xs-03_01{
+  margin: 0rem 0rem 0rem 0rem;
+  h2:nth-of-type(1){
+    color: $blanco;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-05;
+    text-align: center;
+    margin: 0rem 0rem 5rem 0rem;
+  }
+  p:nth-of-type(1){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    text-align: center;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  p{
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    text-align: center;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  img:nth-of-type(1){
+    margin-top: 5.5rem;
+  }
+}
+
+/* SECTION ACTUALIZACIONES WEB 01*/
+// .section-actualizaciones-01{
+//   background: url('../images/background-nuevas-funcionalidades-plataforma-home-psicoalianza.webp');
+//   background-repeat: no-repeat;
+//   background-position: center bottom;
+//   background-size: cover;
+//   height: 600px;
+//   @media screen and (max-width: $window-size-01) {
+//     background: url('../images/background-nuevas-funcionalidades-plataforma-landing-psicoalianza.webp');
+//     background-repeat: no-repeat;
+//     background-position: center bottom;
+//     background-size: cover;
+//     height: 600px;
+//   }
+//   @media screen and (max-width: $window-size-02) {
+//     background-position: right bottom;
+//   }
+// }
+.section-actualizaciones-01{
+  background: url('../images/background-nuevas-funcionalidades-plataforma-home-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 830px;
+  transition: .5s;
+  @media screen and (max-width: 1920px) {
+    background-size: 1920px 830px;
+  }
+  @media screen and (max-width: $window-size-01) {
+    background-size: 1590px 690px;
+    height: 690px;
+  }
+  @media screen and (max-width: 1399px) {
+    background-size: 1400px 605px;
+    height: 605px;
+  }
+}
+
+
+// .content-section-actualizaciones-01_01{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   height: 600px;
+//   @media screen and (max-width: $window-size-01) {
+//     height: 600px;
+//   }
+//   h5:nth-child(1){
+//     color: $blanco;
+//     font-family: $Lato-Bold;
+//     font-size: $tx-size-06;
+//     text-transform: uppercase;
+//     margin: 0rem 0rem 4rem 0rem;
+//     @media screen and (max-width: $window-size-02) {
+//       font-size: $tx-size-07;
+//       margin: 0rem 0rem 2rem 0rem;
+//     }
+//   }
+//   h1:nth-child(2){
+//     color: $blanco;
+//     font-family: $Lato-Black;
+//     font-size: $tx-size-01;
+//     margin: 0rem 0rem 4rem 0rem;
+//     @media screen and (max-width: $window-size-02) {
+//       font-size: $tx-size-03;
+//       margin: 0rem 0rem 2rem 0rem;
+//     }
+//   }
+//   p:nth-child(3){
+//     display: flex;
+//     color: $blanco;
+//     font-family: $Lato-Regular;
+//     font-size: $tx-size-05;
+//     margin: 0rem 0rem 2.5rem 0rem;
+//     line-height: 1.5;
+//     span:nth-of-type(1){
+//       margin:0rem 1rem 0rem 1rem;
+//     }
+//     @media screen and (max-width: $window-size-02) {
+//       font-size: $tx-size-06;
+//       margin: 0rem 0rem 1.5rem 0rem;
+//     }
+//   }
+//   p:nth-child(4){
+//     display: flex;
+//     color: $blanco;
+//     font-family: $Lato-Regular;
+//     font-size: $tx-size-05;
+//     line-height: 1.5;
+//     margin: 0rem 0rem 2.5rem 0rem;
+//     span:nth-of-type(1){
+//       margin:0rem 1rem 0rem 1rem;
+//     }
+//     @media screen and (max-width: $window-size-02) {
+//       font-size: $tx-size-06;
+//       margin: 0rem 0rem 1.5rem 0rem;
+//     }
+//   }
+//   p:nth-child(5){
+//     display: flex;
+//     color: $blanco;
+//     font-family: $Lato-Regular;
+//     font-size: $tx-size-05;
+//     line-height: 1.5;
+//     margin: 0rem 0rem 0rem 0rem;
+//     span:nth-of-type(1){
+//       margin:0rem 1rem 0rem 1rem;
+//     }
+//     @media screen and (max-width: $window-size-02) {
+//       font-size: $tx-size-06;
+//       margin: 0rem 0rem 1.5rem 0rem;
+//     }
+//   }
+// }
+.content-section-actualizaciones-01_01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 830px;
+  @media screen and (max-width: $window-size-01) {
+    height: 690px;
+  }
+  @media screen and (max-width: 1399px) {
+    height: 605px;
+  }
+  h5:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-06;
+    text-transform: uppercase;
+    margin: 0rem 0rem 4rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-07;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  }
+  h1:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-01;
+    margin: 0rem 0rem 4rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-03;
+      margin: 0rem 0rem 2rem 0rem;
+    }
+  }
+  p:nth-child(3){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin: 0rem 0rem 2.5rem 0rem;
+    line-height: 1.5;
+    span:nth-of-type(1){
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+  p:nth-child(4){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 2.5rem 0rem;
+    span:nth-of-type(1){
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+  p:nth-child(5){
+    display: flex;
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    line-height: 1.5;
+    margin: 0rem 0rem 0rem 0rem;
+    span:nth-of-type(1){
+      margin:0rem 1rem 0rem 1rem;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin: 0rem 0rem 1.5rem 0rem;
+    }
+  }
+}
+
+/* SECTION ACTUALIZACIONES WEB 02*/
+.section-actualizaciones-02{
+  padding: 10rem 0rem 0rem 0rem;
+  h2:nth-of-type(1){
+    color: $color01;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-02;
+    text-align: center;
+    margin:0rem 0rem 10rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-03;
+    }
+  }
+}
+
+.margen-box-item-actualizaciones-web{
+  margin: 0rem 0rem 10rem 0rem;
+}
+
+.content-section-actualizaciones-02_01{
+  margin: 0rem 0rem 0rem 0rem;
+  h3:nth-of-type(1){
+    color: $color01;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-03;
+    margin: 0rem 0rem 5rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-04;
+    }
+  }
+  p:nth-of-type(1){
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  p{
+    color: $negro;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+
+.content-section-actualizaciones-02_02{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* SECTION ACTUALIZACIONES WEB 03*/
+.section-actualizaciones-03{
+  background: #16162B;
+  border-top: 10px solid transparent;
+  border-image-source: $gradient08; 
+  border-image-slice: 1;
+  padding: 7rem 0rem 10rem 0rem;
+}
+.content-section-actualizaciones-03_01{
+  margin: 0rem 0rem 0rem 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  h2:nth-of-type(1){
+    color: $blanco;
+    font-family: $Lato-Bold;
+    font-size: $tx-size-02;
+    margin: 0rem 0rem 5rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-03;
+    }
+  }
+  p:nth-of-type(1){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  p{
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-06;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+
+.content-section-home-02{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}

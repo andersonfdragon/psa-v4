@@ -1,0 +1,168 @@
+/* EROR 404 */
+.section-error-404{
+  background: url('../images/background-error-404-psicoalianza.webp');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 12rem 0rem 11rem 0rem;
+  height: 100vh;
+  @media screen and (max-width: $window-size-04) {
+    background: url('../images/background-xs-error-404-psicoalianza.webp');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+}
+
+.tx-section-error-404-xs-01{
+  color: $blanco;
+  font-family: $Lato-Black;
+  font-size: $tx-size-02;
+  margin:0rem 0rem 2rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-05 + .2;
+    margin:0rem 0rem 2rem 0rem;
+  }
+}
+.tx-section-error-404-xs-02{
+  color: $blanco;
+  font-family: $Lato-Regular;
+  font-size: $tx-size-06;
+  margin:0rem 0rem 4rem 0rem;
+  @media screen and (max-width: $window-size-02) {
+    font-size: $tx-size-06;
+    margin:0rem 0rem 4rem 0rem;
+  }
+}
+
+span .global-404.icon-error-404::before{
+  color: $blanco;
+  font-size: 100px;
+}
+
+.content-section-error-404-01{
+  h1:nth-child(1){
+    color: $blanco;
+    font-family: $Lato-Black;
+    font-size: $tx-size-01;
+    margin:0rem 0rem 3rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-05 + .2;
+      margin:0rem 0rem 2rem 0rem;
+    }
+  }
+  h4:nth-child(2){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05 + .2;
+    margin:0rem 0rem 6rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem 4rem 0rem;
+    }
+  }
+  p:nth-child(3){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 5rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem 4rem 0rem;
+    }
+  }
+  p:nth-child(4){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 1rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem .5rem 0rem;
+    }
+  }
+  p:nth-child(5){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 1rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem .5rem 0rem;
+    }
+  }
+  p:nth-child(6){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 5rem 0rem;
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem 4rem 0rem;
+    }
+  }
+  p:nth-child(7){
+    color: $blanco;
+    font-family: $Lato-Regular;
+    font-size: $tx-size-05;
+    margin:0rem 0rem 6rem 0rem;
+    span{
+      font-family: $Lato-Bold;
+    }
+    @media screen and (max-width: $window-size-02) {
+      font-size: $tx-size-06;
+      margin:0rem 0rem 5rem 0rem;
+    }
+  }
+  p:nth-child(8){
+    display: flex;
+    justify-content: flex-end;
+    a{
+      color: $blanco;
+      font-family: $Lato-Bold;
+      font-size: $tx-size-05;
+      text-align: right;
+      &:focus{
+        // color: $blanco;
+        color: $color02;
+      }
+      &:hover{
+        // color: $blanco;
+        color: $color02;
+      }
+      span{
+        margin:0rem 1rem 0rem 0rem;
+        .icon-arrow-left::before{
+          font-size: 1.4rem;
+          font-weight: bold;
+          @media screen and (max-width: $window-size-02) {
+            font-size: 1.1rem;
+          }
+        }
+      }
+      @media screen and (max-width: $window-size-02) {
+        font-size: $tx-size-06;
+      }
+    }
+    @media screen and (max-width: $window-size-02) {
+      justify-content: center;
+    }
+  }
+}
+
+.content-section-error-404-02{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  span .global-404.icon-error-404::before{
+    color: $blanco;
+    font-size: 410px;
+    @media screen and (max-width: $window-size-02) {
+      font-size: 360px;
+    }
+    @media screen and (max-width: $window-size-03) {
+      font-size: 310px;
+    }
+  }
+}
